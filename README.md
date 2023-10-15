@@ -1,12 +1,12 @@
 # cron-parser-assignment-python
 
-Introduction
+Introduction:
 This is a command-line application that parses a cron string and expands each field to show the times at which it will run. It only considers the standard cron format with five time fields (minute, hour, day of month, month, and day of week) plus a command. Special time strings such as "@yearly" are not handled.
 
-Installation
+Installation:
 This project requires Python to run. Ensure you have Python installed on your computer before proceeding. If not, you can download it from Python's official website.
 
-Running The Application
+Running The Application:
 To run the application, open your terminal and navigate to the project directory.
 
 Then type:
@@ -22,7 +22,7 @@ pip install pytest
 Then, navigate to the project directory and type:
 pytest test.py
 
-Examples
+Examples:
 Here are some sample cron strings and the expected application outputs:
 
 Cron String: */15 0 1,15 * 1-5 /usr/bin/find
